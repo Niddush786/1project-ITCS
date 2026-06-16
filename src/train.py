@@ -39,7 +39,7 @@ plt.title("Confusion Matrix")
 plt.savefig('/Users/kashlogisticsltd/Desktop/Iris-Flower/iris_classifier/outputs/confusion_matrix.png')
 
 import joblib # type: ignore
-model_path = "/Users/kashlogisticsltd/Desktop/Iris-Flower/iris_classifier/outputs.joblib"
+model_path = "/Users/kashlogisticsltd/Desktop/Iris-Flower/iris_classifier/outputs/model.joblib"
 joblib.dump(model, model_path)
 
 
